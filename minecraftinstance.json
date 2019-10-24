@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-10-23T19:00:24.972249Z",
+  "lastPlayed": "2019-10-24T23:37:11.81451Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -37,15 +37,31 @@
   "fileID": 0,
   "customAuthor": "ReGroove23",
   "modpackOverrides": null,
-  "isMemoryOverride": false,
-  "allocatedMemory": 3228,
+  "isMemoryOverride": true,
+  "allocatedMemory": 4096,
   "guid": "80d132c8-ad7f-421b-aff5-0c17db3a7779",
   "gameTypeID": 432,
   "installPath": "C:\\Users\\45squ\\Twitch\\Minecraft\\Instances\\MudMagic_DEV_MC_1.12.2\\",
-  "name": "MudMagic_DEV_MC_1.12.2",
-  "cachedScans": [],
+  "name": "MudMagic_DEV_1.12.2",
+  "cachedScans": [
+    {
+      "folderName": "1.12.1-Harderfarming-7.0.0a.jar",
+      "fingerprint": 2092451084,
+      "fileDateHash": 157218482,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2092451084
+      ],
+      "status": 1,
+      "timestamp": "2019-10-24T23:36:55.9832027Z",
+      "lastWriteTimeUtc": "2019-10-23T23:20:20.9528536Z",
+      "queryTimestamp": "2019-10-24T23:36:56.3361981Z",
+      "fileCount": 1,
+      "fileSize": 157933
+    }
+  ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "0001-01-01T00:00:00",
+  "lastPreviousMatchUpdate": "2019-10-24T23:36:56.9361916Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -67,7 +83,99 @@
   },
   "preferenceShowAddOnInfo": true,
   "installDate": "2019-10-23T19:00:16.1373548Z",
-  "installedAddons": [],
+  "installedAddons": [
+    {
+      "addonID": 255126,
+      "gameInstanceID": "80d132c8-ad7f-421b-aff5-0c17db3a7779",
+      "installedFile": {
+        "id": 2615230,
+        "displayName": "1.12.1-Harderfarming-7.0.0a.jar",
+        "fileName": "1.12.1-Harderfarming-7.0.0a.jar",
+        "fileDate": "2018-09-09T23:20:34.593Z",
+        "fileLength": 157933,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2615/230/1.12.1-Harderfarming-7.0.0a.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 19734332,
+            "addonId": 232071,
+            "type": 3,
+            "fileId": 2615230
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3926116197,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 817087634,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2955232233,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2092451084,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1445000,
+        "projectId": 255126,
+        "packageFingerprintId": 264129753,
+        "gameVersionDateReleased": "2007-07-01T05:00:00Z",
+        "gameVersionMappingId": 1662649,
+        "gameVersionId": 4457,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "1.12.1-Harderfarming-7.0.0a.jar"
+      },
+      "dateInstalled": "2019-10-24T23:36:56.9351908Z",
+      "dateUpdated": "2018-10-24T23:36:56.9351908Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    }
+  ],
   "isMigrated": false,
   "preferenceUploadProfile": false
 }
